@@ -1,7 +1,7 @@
 vim-colemak
 ===========
 
-Colemak key mappings for Vim. Trimmed and modified version of [Shai Coleman's configuration](http://colemak.com/pub/vim/colemak.vim).
+Colemak-dh key mappings for Vim. Trimmed and modified version of [Shai Coleman's configuration](http://colemak.com/pub/vim/colemak.vim).
 
 Install
 -------
@@ -9,11 +9,11 @@ Install
 1. Use [vim-plug](https://github.com/junegunn/vim-plug).
 2. Add to `.vimrc`: `Plug 'jooize/vim-colemak'`
 3. Run `vim +PlugInstall`
-4. You probably want to load vim-colemak last. Reload the plugin at the bottom of your Vim configuration.
+4. You probably want to load vim-colemak-dh last. Reload the plugin at the bottom of your Vim configuration.
 
     ```
     " Reload vim-colemak to remap any overridden keys
-    silent! source "$HOME/.vim/bundle/vim-colemak/plugin/colemak.vim"
+    silent! source "$HOME/.vim/bundle/vim-colemak-dh/plugin/colemak-dh.vim"
     ```
 
     *Note: You might be using `~/.vim/plugged`.*
@@ -27,10 +27,10 @@ Key mappings
 Colemak layout:                  |                 QWERTY layout:
 `12345 67890-=     Move around:  |  (instead of)   `12345 67890-=
  qwfpg jluy;[]\         e        |       k          qwert yuiop[]\
- arstd HNEIo'         h   i      |     h   l        asdfg HJKL;'
- zxcvb km,./            n        |       j          zxcvb nm,./
+ arstd MNEIo'         m   i      |     h   l        asdfg HJKL;'
+ zxcvb kh,./            n        |       j          zxcvb nm,./
 
-(  novx)  h = h (Left)     i = l (Right)     e = k (Up)     n = j (Down)
+(  novx)  m = h (Left)     i = l (Right)     e = k (Up)     n = j (Down)
 
 (  novx)  l = b (Back word)            L = B (Back WORD)
 (  novx)  y = w (Forward word)         Y = W (Forward WORD)
@@ -65,13 +65,12 @@ Colemak layout:                  |                 QWERTY layout:
 (  n  x)  gK = K (Lookup)
 (  n  x)  gL = L (To line [count] from bottom of window)
 
-(  n  x)  <C-W>h = <C-W>h (Window left)
+(  n  x)  <C-W>m = <C-W>h (Window left)
 (  n  x)  <C-W>n = <C-W>j (Window down)
 (  n  x)  <C-W>e = <C-W>k (Window up)
 (  n  x)  <C-W>i = <C-W>l (Window right)
 
 Lost:
-(  n  x)  H (To line [count] from top of window)
 (  n  x)  s (Substitute [count] characters) [Use wi = cl]
 (  n  x)  S (Substitute [count] lines) [Use ww = cc]
 (  n  x)  X (Cut [count] characters backwards) [Use dh = dh]
