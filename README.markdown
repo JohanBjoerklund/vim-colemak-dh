@@ -26,9 +26,9 @@ Key mappings
 ```
 Colemak layout:                  |                 QWERTY layout:
 `12345 67890-=     Move around:  |  (instead of)   `12345 67890-=
- qwfpg jluy;[]\         e        |       k          qwert yuiop[]\
- arstd MNEIo'         m   i      |     h   l        asdfg HJKL;'
- zxcvb kh,./            n        |       j          zxcvb nm,./
+ qwfpb jluy;[]\         e        |       k          qwert yuiop[]\
+ arstg MNEIo'         m   i      |     h   l        asdfg HJKL;'
+ zxcdv kh,./            n        |       j          zxcvb nm,./
 
 (  novx)  m = h (Left)     i = l (Right)     e = k (Up)     n = j (Down)
 
