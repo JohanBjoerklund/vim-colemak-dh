@@ -1,4 +1,4 @@
-vim-colemak
+vim-colemak-dh
 ===========
 
 Colemak-dh key mappings for Vim. Trimmed and modified version of [Shai Coleman's configuration](http://colemak.com/pub/vim/colemak.vim).
